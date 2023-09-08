@@ -15,9 +15,11 @@
 * Log into the VM.
 * Depending on your OS, retrieve the VM's IP address. On most Linux distributions, you can use:
 
+```
 bash
 Copy code
 ip addr show
+```
 
 _Look for an IP address like 192.168.x.x or 10.x.x.x._
 
