@@ -44,11 +44,11 @@ If this is your first time connecting to the VM, you will likely see a message r
 Once connected, you will be presented with the VM's shell prompt, indicating you're now operating inside the VM.
 
 #### 7. End the SSH Session:
--To end the session and return to your host machine, simply type:-
-`````bash
+---To end the session and return to your host machine, simply type:---
+```bash
 Copy code
-exit`````
+exit```
 
 ##### Optional:
--To improve security, consider setting up SSH key-based authentication instead of using passwords.-
--If you're going to be accessing the VM regularly, consider giving it a static IP address or setting up a hostname for easier access.-
+---To improve security, consider setting up SSH key-based authentication instead of using passwords.---
+---If you're going to be accessing the VM regularly, consider giving it a static IP address or setting up a hostname for easier access.---
