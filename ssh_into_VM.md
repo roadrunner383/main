@@ -4,7 +4,7 @@
 
 ### Prerequisites:
 * SSH client installed on your host machine (e.g., OpenSSH on Linux/Mac or PuTTY on Windows).
-* A running VM with an operating system that has an SSH server installed (e.g., **'sshd'** for Linux).
+* A running VM with an operating system that has an SSH server installed (e.g., `sshd` for Linux).
 * Network connectivity between the host machine and the VM.
 
 ### Steps:
@@ -60,3 +60,4 @@ exit
 ##### Optional:
 * To improve security, consider setting up SSH key-based authentication instead of using passwords.
 * If you're going to be accessing the VM regularly, consider giving it a static IP address or setting up a hostname for easier access.
+
