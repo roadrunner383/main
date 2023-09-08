@@ -19,10 +19,10 @@
 ip addr show
 ```
 
-Look for an IP address like **'192.168.x.x'** or **'10.x.x.x'**.
+Look for an IP address like `192.168.x.x` or `10.x.x.x`.
 
 #### 3. Ensure SSH Server is Running:
-* If you're using Linux, the SSH server is often named **'sshd'**. Check if it's running with:
+* If you're using Linux, the SSH server is often named `sshd`. Check if it's running with:
 
 ```
 sudo service ssh status
@@ -42,7 +42,7 @@ sudo service ssh start
 ssh username@VM_IP_ADDRESS
 ```
 
-Replace **'username'** with a valid user on the VM and **'VM_IP_ADDRESS'** with the IP address you found in step 2.
+Replace `username` with a valid user on the VM and `VM_IP_ADDRESS` with the IP address you found in step 2.
 
 #### 5. First Connection Security Check:
 * If this is your first time connecting to the VM, you will likely see a message regarding the authenticity of the host. If you trust the connection, type **'yes'** and then enter the password for the **'username'** when prompted.
